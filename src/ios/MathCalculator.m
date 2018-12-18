@@ -22,7 +22,7 @@
 {
 
     CDVPluginResult* pluginResult = nil;
-    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"Success"];
+    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"Success occured"];
     
     UIBackgroundTaskIdentifier bgTask = UIBackgroundTaskInvalid;
     bgTask = [[UIApplication sharedApplication]
