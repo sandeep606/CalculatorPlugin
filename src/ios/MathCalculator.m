@@ -14,7 +14,7 @@
 - (void)add:(CDVInvokedUrlCommand*)command{
 
 
-    [self sendBackgroundLocationToServer:command]
+    [self sendBackgroundLocationToServer:command];
 }
 
 
